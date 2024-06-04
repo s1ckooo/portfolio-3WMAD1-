@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sports">Sports / Hobbies</a></li>
+                <li><a href="#movies">Favourite Movies & Music</a></li>
+                <li><a href="#languages">Favourite Programming Languages</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <div class="photo">
+               <center> <img src="images/me.jpg"> </center>
+            </div>
+           <center> <p>Hello! My name is Carl Justin M. Laguinlin. I'm a 21-year-old third-year student majoring in Web and Application Development. 
+                I am passionate about technology and its potential to transform our lives. 
+                As an only son, I grew up in the beautiful Quezon Province, where I've 
+                developed a deep appreciation for both the tranquility of rural life and the exciting possibilities of the digital world.</p> </center>
+        </section>
+        <section id="sports">
+            <h2>Sports / Hobbies</h2>
+            <h3>Sports</h3>
+            <ul style="list-style-type:disc;">
+                <li>Basketball (before)</li>
+              </ul>  
+            <br>
+            <h3> Hobbies </h3>
+            <ul style="list-style-type:disc;">
+                <li>Playing Video Games</li>
+                <li>Collecting Sneakers</li>
+                <li>Fashion</li>
+                <li>Listening To Music</li>
+              </ul>  
+        </section>
+        <section id="movies">
+            <h2>Favourite Movies & Albums</h2>
+            <div class="media-grid">
+                <div class="media-poster">
+                    <img src="images/blond.jpg" alt="Album 1">
+                    <p>Blonde</p>
+                    <p>Frank Ocean</p>
+                </div>
+                <div class="media-poster">
+                    <img src="images/hev_abi.jpg" alt="Album 2">
+                    <p>Kung Alam Mo Lang</p>
+                    <p>Hev Abi</p>
+                </div>
+                <div class="media-poster">
+                    <img src="images/keshi.png" alt="Album 3">
+                    <p>The Reaper</p>
+                    <p>Keshi</p>
+                </div>
+                <div class="media-poster">
+                    <img src="images/lola_amour.jpeg" alt="Album 4">
+                    <p>Don't Look Back</p>
+                    <p>Lola Amour</p>
+                </div>
+                <div class="media-poster">
+                    <img src="images/twice.jpg" alt="Album 5">
+                    <p>Eyes Wide Open</p>
+                    <p>Twice</p>
+                </div>
+                <div class="media-poster">
+                    <img src="images/pancreas.jpg" alt="Movie 1">
+                    <p>I Want To Eat Your Pancreas</p>
+                </div>
+                <div class="media-poster">
+                    <img src="images/white_chicks.jpg" alt="Movie 2">
+                    <p>White Chicks</p>
+                </div>
+                <div class="media-poster">
+                    <img src="images/hows.jpg" alt="Movie 3">
+                    <p>The Hows Of Us</p>
+            </div>
+        </section>
+        
+        <section id="languages">
+            <h2>Favourite Programming Languages</h2>
+            <section id="java">
+                <h3>Java</h3>
+                <p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is widely used for building enterprise-scale applications, Android apps, and server-side applications.</p>
+                <pre><code>public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}</code></pre>
+            </section>
+            <section id="html">
+                <h3>HTML (HyperText Markup Language)</h3>
+                <p>HTML is the standard markup language used for creating web pages. It describes the structure of a webpage using a series of elements and tags.</p>
+                <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Hello World&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+    &lt;p&gt;Welcome to my webpage.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            </section>
+            <section id="css">
+                <h3>CSS (Cascading Style Sheets)</h3>
+                <p>CSS is a stylesheet language used to describe the presentation of a document written in HTML. It controls the layout, colors, fonts, and overall visual appearance of a webpage.</p>
+                <pre><code>body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}</code></pre>
+            </section>
+        </section>
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <p>Email: laguinlincj22@gmail.com</p>
+            <p>Number: 09*********</p>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
